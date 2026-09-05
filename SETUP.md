@@ -2,7 +2,7 @@
 
 The repository publishes through GitHub Pages using the `Pages` workflow.
 While DNS is being connected, the site is accessible at
-https://quitepicky.github.io.
+https://quitepicky.github.io/site/.
 
 ## Cloudflare DNS
 
@@ -29,7 +29,7 @@ Both CNAMEs point to the organization host, without a repository path.
 
 Then set these custom domains in each repository's **Settings → Pages**:
 
-- `quitepicky/quitepicky.github.io`: `quitepicky.dev`
+- `quitepicky/site`: `quitepicky.dev`
 - `quitepicky/considered`: `considered.quitepicky.dev`
 
 Wait for the GitHub DNS checks and certificates, then enable **Enforce HTTPS**

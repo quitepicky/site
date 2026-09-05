@@ -28,7 +28,7 @@ and is also the source for the GitHub organization avatar. Considered retains
 its own product logo and documentation design.
 
 The homepage contains only the Quite Picky wordmark, the slogan “Development
-tooling for the rather particular”, and a Considered card. `public/considered.css`
+tooling for the rather particular”, and product cards for Considered and DollarLint. `public/considered.css`
 copies the product's style declarations from `docs/src/styles/considered.css` in
 `quitepicky/considered`, scoped to the card. `public/considered.png` is the same
 logo used by its documentation site. Keep these in sync with Considered's design.
@@ -36,3 +36,10 @@ logo used by its documentation site. Keep these in sync with Considered's design
 The tagline uses a locally hosted IBM Plex Mono Regular WOFF2 from
 [`@ibm/plex-mono` 2.5.0](https://github.com/IBM/plex/tree/master/packages/plex-mono).
 Its SIL Open Font License is included in `public/fonts/IBM-Plex-LICENSE.txt`.
+
+The DollarLint card links to its existing site at https://dollarlint.dev/.
+`public/dollarlint.css` copies its light-theme card, brand, and button styles from
+`dollarlint/dollarlint/docs/src/styles/dollar.css`; `public/dollarlint.svg` packages
+its `Logo.astro` component with the matching logo styles. Fjord One Regular and
+Fira Sans Regular/ExtraBold are served locally from Fontsource 5.3.0, with their
+licenses in `public/fonts/`.

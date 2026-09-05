@@ -33,6 +33,7 @@ a:focus-visible { outline: 3px solid var(--ink); outline-offset: 7px; }
 }
 .wordmark svg { display: block; width: 100%; height: auto; }
 .slogan { margin: 0; font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: var(--slogan-size); line-height: 1.5; letter-spacing: 0; }
+.dollarlint { max-width: 440px; margin-top: 20px; }
 .considered { max-width: 440px; margin-top: 48px; }
 .considered .product-title { margin: 0; }
 .considered .brand img { height: auto; }

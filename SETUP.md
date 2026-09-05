@@ -1,8 +1,13 @@
 # Site setup
 
 The repository publishes through GitHub Pages using the `Pages` workflow.
-While DNS is being connected, the site is accessible at
-https://quitepicky.github.io/site/.
+The production URL is https://quitepicky.dev/.
+
+As of September 5, 2026, the organization domain is verified, the DNS records
+below are configured in Cloudflare, both repository custom domains are set,
+and GitHub certificates and HTTPS enforcement are active. The QP site is
+deployed; Considered still needs its migration PR merged and docs deployed.
+The remaining sections document the configuration for future maintenance.
 
 ## Cloudflare DNS
 

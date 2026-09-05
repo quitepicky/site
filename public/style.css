@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 :root {
   color-scheme: light;
   --paper: #f8e7ed;
@@ -15,9 +22,9 @@ a { color: inherit; }
 a:focus-visible { outline: 3px solid var(--ink); outline-offset: 7px; }
 .sheet { width: min(100% - 112px, 720px); margin-inline: auto; }
 .home { padding-block: clamp(48px, 8vh, 88px); }
-.wordmark { width: min(100%, 600px); margin: 0 0 28px; color: var(--accent); }
+.wordmark { width: min(80%, 440px); margin: 0 0 28px; color: var(--accent); }
 .wordmark svg { display: block; width: 100%; height: auto; }
-.slogan { margin: 0; font-size: clamp(18px, 2.4vw, 23px); line-height: 1.5; letter-spacing: -.025em; text-wrap: balance; }
+.slogan { margin: 0; font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: clamp(18px, 2.4vw, 23px); line-height: 1.5; letter-spacing: 0; text-wrap: balance; }
 .considered { max-width: 440px; margin-top: 48px; }
 .considered .product-title { margin: 0; }
 .considered .brand img { height: auto; }

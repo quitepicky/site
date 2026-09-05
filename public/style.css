@@ -5,10 +5,10 @@
 }
 :root {
   color-scheme: light;
-  --paper: #f3f0e7;
-  --ink: #29392d;
-  --muted: #64695e;
-  --accent: #adb951;
+  --paper: #fff3e0;
+  --ink: #783b23;
+  --orange: #c65319;
+  --accent: #ffba7a;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--ink);
   background: var(--paper);
@@ -22,6 +22,7 @@ a:focus-visible { outline: 3px solid var(--ink); outline-offset: 7px; }
 .sheet { width: min(100% - 112px, 720px); margin-inline: auto; }
 .home { padding-block: clamp(48px, 8vh, 88px); }
 .wordmark {
+  color: var(--orange);
   margin: 0 0 36px -8px;
   font-family: "System serif", Georgia, serif;
   font-weight: 400;
@@ -30,7 +31,7 @@ a:focus-visible { outline: 3px solid var(--ink); outline-offset: 7px; }
   line-height: .86;
 }
 .wordmark > span { display: inline-block; margin-left: .65em; }
-.period { color: #7d8834; }
+.period { color: #ed8a38; }
 .slogan { margin: 0; font-size: clamp(18px, 2.4vw, 23px); line-height: 1.5; letter-spacing: -.025em; text-wrap: balance; }
 .considered { max-width: 440px; margin-top: 48px; }
 .considered .product-title { margin: 0; }

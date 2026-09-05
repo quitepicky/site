@@ -16,8 +16,8 @@ GitHub Actions validates pull requests and deploys `main` to GitHub Pages.
 The custom domain is configured in the repository's Pages settings. DNS belongs
 to Cloudflare. See `SETUP.md` for the initial DNS and Garden setup.
 
-The `mark.svg` monogram, olive ink, warm paper, and serif wordmark are the initial
-brand system. Considered retains its own product logo and documentation design.
+The `mark.svg` monogram and serif wordmark use an orange creamsicle palette:
+vanilla cream, orange lettering, and warm brown body text. Considered retains its own product logo and documentation design.
 
 The homepage contains only the Quite Picky wordmark, the slogan “Development
 tooling for the rather particular”, and a Considered card. `public/considered.css`

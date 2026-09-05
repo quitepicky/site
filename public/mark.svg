@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
   <title id="title">Quite Picky monogram</title>
-  <rect width="96" height="96" rx="24" fill="#29392d"/>
-  <g fill="none" stroke="#f3f0e7" stroke-width="7">
+  <rect width="96" height="96" rx="24" fill="#c65319"/>
+  <g fill="none" stroke="#fff3e0" stroke-width="7">
     <circle cx="32" cy="41" r="13"/>
     <path d="M45 28v43M55 71V28"/>
     <circle cx="68" cy="41" r="13"/>

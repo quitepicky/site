@@ -10,6 +10,7 @@
   --paper: #f8e7ed;
   --ink: #260e15;
   --accent: #d71c51;
+  --slogan-size: clamp(18px, 2.4vw, 23px);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--ink);
   background: var(--paper);
@@ -22,9 +23,16 @@ a { color: inherit; }
 a:focus-visible { outline: 3px solid var(--ink); outline-offset: 7px; }
 .sheet { width: min(100% - 112px, 720px); margin-inline: auto; }
 .home { padding-block: clamp(48px, 8vh, 88px); }
-.wordmark { width: min(80%, 440px); margin: 0 0 28px; color: var(--accent); }
+.wordmark {
+  --wordmark-width: min(80%, 440px);
+  width: var(--wordmark-width);
+  margin: 0 0 28px;
+  /* P's left edge is 17.8916 / 705.7627 of the SVG; D's inset is .095em. */
+  margin-left: calc(.095 * var(--slogan-size) - .025350733 * var(--wordmark-width));
+  color: var(--accent);
+}
 .wordmark svg { display: block; width: 100%; height: auto; }
-.slogan { margin: 0; font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: clamp(18px, 2.4vw, 23px); line-height: 1.5; letter-spacing: 0; text-wrap: balance; }
+.slogan { margin: 0; font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: var(--slogan-size); line-height: 1.5; letter-spacing: 0; }
 .considered { max-width: 440px; margin-top: 48px; }
 .considered .product-title { margin: 0; }
 .considered .brand img { height: auto; }

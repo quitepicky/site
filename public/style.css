@@ -22,9 +22,9 @@ body { margin: 0; }
 a { color: inherit; }
 a:focus-visible { outline: 3px solid var(--ink); outline-offset: 7px; }
 .sheet { width: min(100% - 112px, 720px); margin-inline: auto; }
-.home { padding-block: clamp(48px, 8vh, 88px); }
+.home { max-width: 440px; padding-block: clamp(48px, 8vh, 88px); }
 .wordmark {
-  --wordmark-width: min(80%, 440px);
+  --wordmark-width: min(100%, 440px);
   width: var(--wordmark-width);
   margin: 0 0 28px;
   /* P's left edge is 17.8916 / 705.7627 of the SVG; D's inset is .095em. */

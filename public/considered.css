@@ -1,0 +1,96 @@
+/* Copied from quitepicky/considered docs/src/styles/considered.css.
+ * Declaration values are unchanged; selectors are scoped to the product card.
+ * The card inherits the same font and ink as Considered's html element.
+ */
+.considered {
+  color-scheme: light;
+  --paper: #f7f1e4;
+  --paper-soft: #fffaf0;
+  --paper-deep: #eadfca;
+  --ink: #1d2522;
+  --ink-soft: #53615c;
+  --ink-muted: #7a877f;
+  --rule: rgba(29, 37, 34, 0.16);
+  --rule-strong: rgba(29, 37, 34, 0.28);
+  --wash: rgba(255, 250, 240, 0.72);
+  --green: #2e6d57;
+  --blue: #2c5668;
+  --red: #8c3b33;
+  --gold: #a87728;
+  --code-bg: #17201d;
+  --code-fg: #f6efe1;
+  --shadow: 0 16px 38px rgba(29, 37, 34, 0.08);
+  --sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --mono:
+    "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.considered a {
+  color: var(--green);
+  text-decoration-color: rgba(46, 109, 87, 0.35);
+  text-underline-offset: 0.18em;
+}
+
+.considered a:hover {
+  color: var(--blue);
+  text-decoration-color: currentColor;
+}
+
+.considered .brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.considered .brand img {
+  max-width: 190px;
+  width: auto;
+  object-fit: contain;
+}
+
+.considered p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.considered .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.considered .button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.considered .button.primary {
+  background: var(--ink);
+  color: var(--paper-soft);
+}
+
+.considered.card {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--wash);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.considered.card p {
+  margin-bottom: 0;
+}
+
+.considered { color: var(--ink); font-family: var(--sans); }

@@ -18,3 +18,9 @@ to Cloudflare. See `SETUP.md` for the initial DNS and Garden setup.
 
 The `mark.svg` monogram, olive ink, warm paper, and serif wordmark are the initial
 brand system. Considered retains its own product logo and documentation design.
+
+The homepage contains only the Quite Picky wordmark, the slogan “Development
+tooling for the rather particular”, and a Considered card. `public/considered.css`
+copies the product's style declarations from `docs/src/styles/considered.css` in
+`quitepicky/considered`, scoped to the card. `public/considered.png` is the same
+logo used by its documentation site. Keep these in sync with Considered's design.
